@@ -75,3 +75,9 @@ vim.o.confirm = true
 
 vim.api.nvim_set_hl(0, 'Normal', { bg = 'none' })
 vim.api.nvim_set_hl(0, 'NormalFloat', { bg = 'none' })
+
+vim.opt.expandtab = true -- Use spaces instead of tabs
+vim.opt.tabstop = 4 -- Number of spaces a <Tab> counts for
+vim.opt.shiftwidth = 4 -- Number of spaces for each indentation level
+vim.opt.softtabstop = 4 -- Number of spaces inserted when pressing <Tab>
+vim.opt.smartindent = true -- Smart auto-indenting on new lines

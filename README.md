@@ -202,6 +202,12 @@ sudo add-apt-repository ppa:neovim-ppa/unstable -y
 sudo apt update
 sudo apt install make gcc ripgrep unzip git xclip neovim
 ```
+
+In order to execute `:!` without pauses, update /etc/wsl.conf with 
+```
+[interop]
+appendWindowsPath = false
+```
 </details>
 
 #### Linux Install
